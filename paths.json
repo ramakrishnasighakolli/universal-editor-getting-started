@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/universal-editor-getting-started/:/",
-    "/content/universal-editor-getting-started/configuration:/.helix/config.json",
-    "/content/universal-editor-getting-started/metadata:/metadata.json"
+    "/content/svsrk-eds/:/",
+    "/content/svsrk-eds/configuration:/.helix/config.json",
+    "/content/svsrk-eds/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/universal-editor-getting-started/"
+    "/content/svsrk-eds/"
   ]
 }
