@@ -31,10 +31,4 @@
     order: unset;
   }
 
-  /* Scoped override – only for mental health section */
-  .mental-health-section .columns>div {
-    flex-direction: row;
-    align-items: center;
-    gap: 24px;
-  }
 }
