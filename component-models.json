@@ -136,6 +136,10 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "2 Col- Text | Title",
+            "value": "two-col-text-title"
           }
         ]
       }
