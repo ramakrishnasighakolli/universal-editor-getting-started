@@ -90,10 +90,9 @@ a:not([href], [class]):hover {
 
 /* START: two-col-text-title Styles */
 
-.section.two-col-text-title {
-
-    background-color: rgb(40, 43, 58);
-
+.section .two-col-text-title {
+  background-color: rgb(40 43 58);
 }
+
 
 /* END: two-col-text-title Styles */
