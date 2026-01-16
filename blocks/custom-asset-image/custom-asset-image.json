@@ -1,0 +1,40 @@
+{
+  "definitions": [
+    {
+      "title": "Custom Asset Image",
+      "id": "custom-asset-image",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Custom Asset Image",
+              "model": "custom-asset-image"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "custom-asset-image",
+      "fields": [
+        {
+          "component": "custom-asset-namespace:custom-asset",
+          "name": "image",
+          "label": "Image",
+          "configUrl": "/tools/assets-selector/image.config.json",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "name": "imageAlt",
+          "label": "Alt Text",
+          "valueType": "string"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

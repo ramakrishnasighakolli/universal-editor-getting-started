@@ -1,0 +1,15 @@
+/* Custom Asset Image Block Styles */
+
+.custom-asset-image {
+  max-width: 100%;
+}
+
+.custom-asset-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.custom-asset-image picture {
+  display: block;
+}

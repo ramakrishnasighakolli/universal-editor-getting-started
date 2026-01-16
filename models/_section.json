@@ -27,7 +27,7 @@
         },
         {
           "component": "multiselect",
-          "name": "style",
+          "name": "style", 
           "label": "Style",
           "options": [
             {
@@ -35,9 +35,21 @@
               "value": "highlight"
             },
             {
-              "name": "2 Col- Text | Title",
-              "value": "two-col-text-title"
-            }
+              "name": "Background Gray",
+              "value": "bg-primary"
+            },
+            {
+              "name": "Background Green",
+              "value": "bg-secondary"
+            },
+            {
+            "name": "Home | 2 Col- Title | Text",
+            "value": "home-two-col-title-text"
+          },
+          {
+            "name": "Mission | 2 Col- Title | Text",
+            "value": "mission-two-col-title-text"
+          }
           ]
         }
       ]
@@ -47,14 +59,29 @@
     {
       "id": "section",
       "components": [
-        "text",
-        "image",
+        "accordions",
+        "audio",
         "button",
-        "title",
-        "hero",
         "cards",
+        "carousel",
         "columns",
-        "fragment"
+        "embed",
+        "flip-cards",
+        "fragment",
+        "hero",
+        "image",
+        "scrolling-timeline",
+        "tabs",
+        "text",
+        "title",
+        "panels",
+        "slides",
+        "lottie-player",
+        "video",
+        "recaptcha-form-v2",
+        "icon-button",
+        "sovm-carousel",
+        "custom-asset-image"
       ]
     }
   ]
